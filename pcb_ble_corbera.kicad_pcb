@@ -358,6 +358,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/libs/3d/hdc1080.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder (layer F.Cu) (tedit 59FE48B8) (tstamp 5AAAD41C)
@@ -545,6 +550,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libs/3d/BL652.wrl
+      (offset (xyz 5.95 5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 
