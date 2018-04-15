@@ -1,0 +1,201 @@
+EESchema Schematic File Version 4
+LIBS:ble_temperature-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Humidity:HDC1080 U1
+U 1 1 5A9F2C98
+P 8900 4050
+F 0 "U1" H 8560 4096 50  0000 R CNN
+F 1 "HDC1080" H 8560 4005 50  0000 R CNN
+F 2 "Package_SON:Texas_PWSON-N6" H 8850 3800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" H 8500 4300 50  0001 C CNN
+	1    8900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5A9F2D39
+P 9450 3550
+F 0 "R1" H 9520 3596 50  0000 L CNN
+F 1 "5.7k" H 9520 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 9380 3550 50  0001 C CNN
+F 3 "~" H 9450 3550 50  0001 C CNN
+	1    9450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5A9F2DF1
+P 9950 3550
+F 0 "R2" H 10020 3596 50  0000 L CNN
+F 1 "5.7k" H 10020 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 9880 3550 50  0001 C CNN
+F 3 "~" H 9950 3550 50  0001 C CNN
+	1    9950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5A9F2ECF
+P 9450 3250
+F 0 "#PWR0101" H 9450 3100 50  0001 C CNN
+F 1 "VCC" H 9467 3423 50  0000 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5A9F2EF7
+P 9950 3250
+F 0 "#PWR0102" H 9950 3100 50  0001 C CNN
+F 1 "VCC" H 9967 3423 50  0000 C CNN
+F 2 "" H 9950 3250 50  0001 C CNN
+F 3 "" H 9950 3250 50  0001 C CNN
+	1    9950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5A9F2F1F
+P 8800 3250
+F 0 "#PWR0103" H 8800 3100 50  0001 C CNN
+F 1 "VCC" H 8817 3423 50  0000 C CNN
+F 2 "" H 8800 3250 50  0001 C CNN
+F 3 "" H 8800 3250 50  0001 C CNN
+	1    8800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5A9F2F6A
+P 8800 4650
+F 0 "#PWR0104" H 8800 4400 50  0001 C CNN
+F 1 "GND" H 8805 4477 50  0000 C CNN
+F 2 "" H 8800 4650 50  0001 C CNN
+F 3 "" H 8800 4650 50  0001 C CNN
+	1    8800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3750 8800 3250
+Wire Wire Line
+	9450 3400 9450 3250
+Wire Wire Line
+	9950 3250 9950 3400
+Wire Wire Line
+	9450 3950 9200 3950
+Wire Wire Line
+	9200 4050 9950 4050
+Wire Wire Line
+	9950 4050 9950 3700
+Wire Wire Line
+	8800 4350 8800 4650
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5A9F3809
+P 8350 1200
+F 0 "J1" H 8270 875 50  0000 C CNN
+F 1 "Conn_01x02" H 8270 966 50  0000 C CNN
+F 2 "Battery:BatteryHolder_LINX_BAT-HLD-012-SMT" H 8350 1200 50  0001 C CNN
+F 3 "~" H 8350 1200 50  0001 C CNN
+	1    8350 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5A9F38E8
+P 9700 2250
+F 0 "J2" H 9780 2242 50  0000 L CNN
+F 1 "Conn_01x02" H 9780 2151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9700 2250 50  0001 C CNN
+F 3 "~" H 9700 2250 50  0001 C CNN
+	1    9700 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 2250 0    50   Input ~ 0
+SDA
+Text GLabel 9350 2350 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	9350 2250 9500 2250
+Wire Wire Line
+	9350 2350 9500 2350
+Text GLabel 10200 4050 2    50   Input ~ 0
+SDA
+Text GLabel 10200 3950 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	10200 3950 9450 3950
+Connection ~ 9450 3950
+Wire Wire Line
+	9450 3700 9450 3950
+Wire Wire Line
+	9950 4050 10200 4050
+Connection ~ 9950 4050
+Wire Notes Line
+	7600 5200 11000 5200
+Wire Notes Line
+	11000 5200 11000 1800
+Wire Notes Line
+	11000 1800 7600 1800
+Wire Notes Line
+	7600 1800 7600 5200
+Text Notes 8850 1950 0    50   ~ 0
+Temperature Humidity Sensor\n
+$Comp
+L power:GND #PWR0105
+U 1 1 5A9F46FE
+P 8800 1250
+F 0 "#PWR0105" H 8800 1000 50  0001 C CNN
+F 1 "GND" H 8805 1077 50  0000 C CNN
+F 2 "" H 8800 1250 50  0001 C CNN
+F 3 "" H 8800 1250 50  0001 C CNN
+	1    8800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5A9F4731
+P 8800 950
+F 0 "#PWR0106" H 8800 800 50  0001 C CNN
+F 1 "VCC" H 8817 1123 50  0000 C CNN
+F 2 "" H 8800 950 50  0001 C CNN
+F 3 "" H 8800 950 50  0001 C CNN
+	1    8800 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1200 8800 1200
+Wire Wire Line
+	8800 1200 8800 1250
+Wire Wire Line
+	8800 950  8800 1100
+Wire Wire Line
+	8800 1100 8550 1100
+$Comp
+L mybl652:BL652 U11
+U 1 1 5ACFBE75
+P 2000 4750
+F 0 "U11" H 3750 7550 60  0001 C CNN
+F 1 "BL652" H 3775 7581 60  0000 C CNN
+F 2 "RF_Module:Laird_BL652" H 3250 5500 60  0001 C CNN
+F 3 "" H 3250 5500 60  0001 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
