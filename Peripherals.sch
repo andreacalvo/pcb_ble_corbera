@@ -38,8 +38,8 @@ L Device:C C2
 U 1 1 5ADE1B43
 P 1550 2400
 F 0 "C2" H 1665 2446 50  0000 L CNN
-F 1 "C" H 1665 2355 50  0000 L CNN
-F 2 "" H 1588 2250 50  0001 C CNN
+F 1 "100nF" H 1665 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1588 2250 50  0001 C CNN
 F 3 "~" H 1550 2400 50  0001 C CNN
 	1    1550 2400
 	1    0    0    -1  
@@ -60,21 +60,6 @@ Wire Wire Line
 	2900 2650 2900 2900
 Wire Wire Line
 	3500 2900 2900 2900
-Wire Wire Line
-	2950 1400 2800 1400
-Wire Wire Line
-	2950 1500 2800 1500
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5ADE1B58
-P 2600 1500
-F 0 "J5" H 2680 1492 50  0000 L CNN
-F 1 "Conn_01x02" H 2680 1401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2600 1500 50  0001 C CNN
-F 3 "~" H 2600 1500 50  0001 C CNN
-	1    2600 1500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2100 3300 2100 3600
 Wire Wire Line
@@ -169,7 +154,7 @@ U 1 1 5ADE21A0
 P 5600 3300
 F 0 "SW1" H 5600 3625 50  0000 C CNN
 F 1 "SW_DPST" H 5600 3534 50  0000 C CNN
-F 2 "" H 5600 3300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_MEC_5GSH9" H 5600 3300 50  0001 C CNN
 F 3 "" H 5600 3300 50  0001 C CNN
 	1    5600 3300
 	1    0    0    -1  
@@ -180,7 +165,7 @@ U 1 1 5ADE21A7
 P 6100 1600
 F 0 "JP1" H 6100 1700 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 6100 1400 50  0000 C CNN
-F 2 "" H 6100 1600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6100 1600 50  0001 C CNN
 F 3 "~" H 6100 1600 50  0001 C CNN
 	1    6100 1600
 	1    0    0    -1  
@@ -201,8 +186,8 @@ L Device:C C3
 U 1 1 5ADE21B4
 P 6050 3550
 F 0 "C3" H 6165 3596 50  0000 L CNN
-F 1 "C" H 6165 3505 50  0000 L CNN
-F 2 "" H 6088 3400 50  0001 C CNN
+F 1 "104pF" H 6165 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 6088 3400 50  0001 C CNN
 F 3 "~" H 6050 3550 50  0001 C CNN
 	1    6050 3550
 	1    0    0    -1  
@@ -213,7 +198,7 @@ U 1 1 5ADE21BB
 P 5650 1600
 F 0 "D1" H 5641 1816 50  0000 C CNN
 F 1 "LED" H 5641 1725 50  0000 C CNN
-F 2 "" H 5650 1600 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 5650 1600 50  0001 C CNN
 F 3 "~" H 5650 1600 50  0001 C CNN
 	1    5650 1600
 	1    0    0    -1  
@@ -223,8 +208,8 @@ L Device:R R3
 U 1 1 5ADE21C2
 P 5150 1600
 F 0 "R3" V 4943 1600 50  0000 C CNN
-F 1 "R" V 5034 1600 50  0000 C CNN
-F 2 "" V 5080 1600 50  0001 C CNN
+F 1 "220R" V 5034 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 5080 1600 50  0001 C CNN
 F 3 "~" H 5150 1600 50  0001 C CNN
 	1    5150 1600
 	0    1    1    0   
@@ -276,9 +261,9 @@ F 3 "" H 5050 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5050 3400 5400 3400
-Text Label 6550 1600 0    50   ~ 10
+Text Label 6550 1600 0    50   ~ 0
 LED_0
-Text Label 6400 3400 0    50   ~ 10
+Text Label 6400 3400 0    50   ~ 0
 BUTTON_0
 Wire Notes Line
 	4650 4150 6950 4150
@@ -308,21 +293,17 @@ Text GLabel 8050 1600 0    50   Input ~ 0
 SCL
 Text GLabel 8050 1750 0    50   Input ~ 0
 SDA
-Text Label 2950 1400 0    50   ~ 10
-SCl
-Text Label 2950 1500 0    50   ~ 10
-SDA
-Text Label 3500 2900 0    50   ~ 10
+Text Label 3500 2900 0    50   ~ 0
 SCL
-Text Label 3500 3000 0    50   ~ 10
+Text Label 3500 3000 0    50   ~ 0
 SDA
-Text Label 8250 1600 0    50   ~ 10
+Text Label 8250 1600 0    50   ~ 0
 SCL
-Text Label 8250 1750 0    50   ~ 10
+Text Label 8250 1750 0    50   ~ 0
 SDA
-Text Label 8250 1450 0    50   ~ 10
+Text Label 8250 1450 0    50   ~ 0
 BUTTON_0
-Text Label 8250 1300 0    50   ~ 10
+Text Label 8250 1300 0    50   ~ 0
 LED_0
 Wire Wire Line
 	8050 1450 8250 1450

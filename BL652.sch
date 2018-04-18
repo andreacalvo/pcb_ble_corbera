@@ -13,467 +13,505 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2440 1570 0    50   Input ~ 0
+Text GLabel 1840 1470 0    50   Input ~ 0
 SIO_26-I2C_SDA
 $Comp
 L power:GND #PWR0101
 U 1 1 5AD81B61
-P 7105 2625
-F 0 "#PWR0101" H 7105 2375 50  0001 C CNN
-F 1 "GND" H 7105 2475 50  0000 C CNN
-F 2 "" H 7105 2625 50  0001 C CNN
-F 3 "" H 7105 2625 50  0001 C CNN
-	1    7105 2625
+P 7205 3075
+F 0 "#PWR0101" H 7205 2825 50  0001 C CNN
+F 1 "GND" H 7205 2925 50  0000 C CNN
+F 2 "" H 7205 3075 50  0001 C CNN
+F 3 "" H 7205 3075 50  0001 C CNN
+	1    7205 3075
 	-1   0    0    1   
 $EndComp
-Text GLabel 2440 1720 0    50   Input ~ 0
+Text GLabel 1840 1620 0    50   Input ~ 0
 SIO_26-I2C_SCL
 $Comp
 L power:GND #PWR0102
 U 1 1 5AD81B6E
-P 7905 4475
-F 0 "#PWR0102" H 7905 4225 50  0001 C CNN
-F 1 "GND" H 7905 4325 50  0000 C CNN
-F 2 "" H 7905 4475 50  0001 C CNN
-F 3 "" H 7905 4475 50  0001 C CNN
-	1    7905 4475
+P 8005 4925
+F 0 "#PWR0102" H 8005 4675 50  0001 C CNN
+F 1 "GND" H 8005 4775 50  0000 C CNN
+F 2 "" H 8005 4925 50  0001 C CNN
+F 3 "" H 8005 4925 50  0001 C CNN
+	1    8005 4925
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR0103
 U 1 1 5AD81B75
-P 5670 2685
-F 0 "#PWR0103" H 5670 2535 50  0001 C CNN
-F 1 "VCC" H 5670 2835 50  0000 C CNN
-F 2 "" H 5670 2685 50  0001 C CNN
-F 3 "" H 5670 2685 50  0001 C CNN
-	1    5670 2685
+P 5770 3135
+F 0 "#PWR0103" H 5770 2985 50  0001 C CNN
+F 1 "VCC" H 5770 3285 50  0000 C CNN
+F 2 "" H 5770 3135 50  0001 C CNN
+F 3 "" H 5770 3135 50  0001 C CNN
+	1    5770 3135
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5AD81B7C
-P 9630 3775
-F 0 "#PWR0104" H 9630 3525 50  0001 C CNN
-F 1 "GND" H 9630 3625 50  0000 C CNN
-F 2 "" H 9630 3775 50  0001 C CNN
-F 3 "" H 9630 3775 50  0001 C CNN
-	1    9630 3775
+P 9730 4225
+F 0 "#PWR0104" H 9730 3975 50  0001 C CNN
+F 1 "GND" H 9730 4075 50  0000 C CNN
+F 2 "" H 9730 4225 50  0001 C CNN
+F 3 "" H 9730 4225 50  0001 C CNN
+	1    9730 4225
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5AD81B83
-P 9630 2275
-F 0 "#PWR0107" H 9630 2025 50  0001 C CNN
-F 1 "GND" H 9630 2125 50  0000 C CNN
-F 2 "" H 9630 2275 50  0001 C CNN
-F 3 "" H 9630 2275 50  0001 C CNN
-	1    9630 2275
+P 9730 2725
+F 0 "#PWR0107" H 9730 2475 50  0001 C CNN
+F 1 "GND" H 9730 2575 50  0000 C CNN
+F 2 "" H 9730 2725 50  0001 C CNN
+F 3 "" H 9730 2725 50  0001 C CNN
+	1    9730 2725
 	-1   0    0    1   
 $EndComp
-Text Label 7130 3025 2    50   ~ 0
+Text Label 7230 3475 2    50   ~ 0
 SIO_28-AIN4
-Text GLabel 2440 1420 0    50   Input ~ 0
+Text GLabel 1840 1320 0    50   Input ~ 0
 SIO_25-SPI_CLK
-Text GLabel 2440 1870 0    50   Input ~ 0
+Text GLabel 1840 1770 0    50   Input ~ 0
 SIO_28-AIN4
-Text GLabel 2440 2020 0    50   Input ~ 0
+Text GLabel 1840 1920 0    50   Input ~ 0
 SIO_29-AIN5
-Text GLabel 2440 2170 0    50   Input ~ 0
+Text GLabel 1840 2070 0    50   Input ~ 0
 SIO_30-AIN6
-Text GLabel 2440 2320 0    50   Input ~ 0
+Text GLabel 1840 2220 0    50   Input ~ 0
 SIO_31-AIN7
-Text GLabel 2440 2620 0    50   Input ~ 0
+Text GLabel 1840 2520 0    50   Input ~ 0
 SIO_17
-Text GLabel 2440 2770 0    50   Input ~ 0
+Text GLabel 1840 2670 0    50   Input ~ 0
 SIO_15
-Text GLabel 2440 2920 0    50   Input ~ 0
+Text GLabel 1840 2820 0    50   Input ~ 0
 SIO_13-NAutoRUN
-Text GLabel 2440 3070 0    50   Input ~ 0
+Text GLabel 1840 2970 0    50   Input ~ 0
 SIO_00
-Text GLabel 2440 3220 0    50   Input ~ 0
+Text GLabel 1840 3120 0    50   Input ~ 0
 SIO_01
-Text GLabel 2440 3370 0    50   Input ~ 0
+Text GLabel 1840 3270 0    50   Input ~ 0
 SIO_02
-Text GLabel 2440 3520 0    50   Input ~ 0
+Text GLabel 1840 3420 0    50   Input ~ 0
 SIO_03
-Text GLabel 2440 3670 0    50   Input ~ 0
+Text GLabel 1840 3570 0    50   Input ~ 0
 SIO_04
-Text GLabel 2440 3820 0    50   Input ~ 0
+Text GLabel 1840 3720 0    50   Input ~ 0
 SIO_05
-Text GLabel 2440 3970 0    50   Input ~ 0
+Text GLabel 1840 3870 0    50   Input ~ 0
 SIO_06
-Text GLabel 2440 4120 0    50   Input ~ 0
+Text GLabel 1840 4020 0    50   Input ~ 0
 SIO_07
-Text GLabel 2440 4270 0    50   Input ~ 0
+Text GLabel 1840 4170 0    50   Input ~ 0
 SIO_08
-Text GLabel 2440 4420 0    50   Input ~ 0
+Text GLabel 1840 4320 0    50   Input ~ 0
 SIO_24-SPI_MISO
-Text GLabel 2440 4720 0    50   Input ~ 0
+Text GLabel 1840 4620 0    50   Input ~ 0
 SIO_22
-Text GLabel 2440 5320 0    50   Input ~ 0
+Text GLabel 1840 5220 0    50   Input ~ 0
 SIO_20-SFLASH_MOSI
-Text GLabel 2440 5470 0    50   Input ~ 0
+Text GLabel 1840 5370 0    50   Input ~ 0
 SIO_18
-Text GLabel 2440 5620 0    50   Input ~ 0
+Text GLabel 1840 5520 0    50   Input ~ 0
 SIO_16-SFLASH_CLK
-Text GLabel 2440 5770 0    50   Input ~ 0
+Text GLabel 1840 5670 0    50   Input ~ 0
 SIO_14-SFLASH_MOSI
-Text GLabel 2440 5920 0    50   Input ~ 0
+Text GLabel 1840 5820 0    50   Input ~ 0
 SIO_12-SFLASH_CS
-Text GLabel 2440 6070 0    50   Input ~ 0
+Text GLabel 1840 5970 0    50   Input ~ 0
 SIO_11
-Text GLabel 2440 6220 0    50   Input ~ 0
+Text GLabel 1840 6120 0    50   Input ~ 0
 NFC2-SIO_10
-Text GLabel 2440 6370 0    50   Input ~ 0
+Text GLabel 1840 6270 0    50   Input ~ 0
 NFC2-SIO_09
-Text GLabel 2435 5175 0    50   Input ~ 0
+Text GLabel 1835 5075 0    50   Input ~ 0
 nRESET
-Text GLabel 2445 5020 0    50   Input ~ 0
+Text GLabel 1845 4920 0    50   Input ~ 0
 SWDCLK
-Text GLabel 2435 4865 0    50   Input ~ 0
+Text GLabel 1835 4765 0    50   Input ~ 0
 SWDIO-TMS
-Text Label 2840 1420 0    50   ~ 0
+Text Label 2240 1320 0    50   ~ 0
 SIO_25-SPI_CLK
-Text Label 2840 1870 0    50   ~ 0
+Text Label 2240 1770 0    50   ~ 0
 SIO_28-AIN4
-Text Label 2840 2020 0    50   ~ 0
+Text Label 2240 1920 0    50   ~ 0
 SIO_29-AIN5
-Text Label 2840 2170 0    50   ~ 0
+Text Label 2240 2070 0    50   ~ 0
 SIO_30-AIN6
-Text Label 2840 2320 0    50   ~ 0
+Text Label 2240 2220 0    50   ~ 0
 SIO_31-AIN7
-Text Label 2840 2470 0    50   ~ 0
+Text Label 2240 2370 0    50   ~ 0
 SIO_19
-Text Label 2840 2620 0    50   ~ 0
+Text Label 2240 2520 0    50   ~ 0
 SIO_17
-Text Label 2840 2770 0    50   ~ 0
+Text Label 2240 2670 0    50   ~ 0
 SIO_15
-Text Label 2840 2920 0    50   ~ 0
+Text Label 2240 2820 0    50   ~ 0
 SIO_13-NAutoRUN
-Text Label 2840 3070 0    50   ~ 0
+Text Label 2240 2970 0    50   ~ 0
 SIO_00
-Text Label 2840 3220 0    50   ~ 0
+Text Label 2240 3120 0    50   ~ 0
 SIO_01
-Text Label 2840 3370 0    50   ~ 0
+Text Label 2240 3270 0    50   ~ 0
 SIO_02
-Text GLabel 2440 2470 0    50   Input ~ 0
+Text GLabel 1840 2370 0    50   Input ~ 0
 SIO_19
-Text Label 2840 3520 0    50   ~ 0
+Text Label 2240 3420 0    50   ~ 0
 SIO_03
-Text Label 2840 3670 0    50   ~ 0
+Text Label 2240 3570 0    50   ~ 0
 SIO_04
-Text Label 2840 3820 0    50   ~ 0
+Text Label 2240 3720 0    50   ~ 0
 SIO_05
-Text Label 2840 3970 0    50   ~ 0
+Text Label 2240 3870 0    50   ~ 0
 SIO_06
-Text Label 2840 4120 0    50   ~ 0
+Text Label 2240 4020 0    50   ~ 0
 SIO_07
-Text Label 2840 4270 0    50   ~ 0
+Text Label 2240 4170 0    50   ~ 0
 SIO_08
-Text Label 2840 4420 0    50   ~ 0
+Text Label 2240 4320 0    50   ~ 0
 SIO_24-SPI_MISO
-Text Label 2840 4570 0    50   ~ 0
+Text Label 2240 4470 0    50   ~ 0
 SIO_23-SPI_MOSI
-Text Label 2840 4720 0    50   ~ 0
+Text Label 2240 4620 0    50   ~ 0
 SIO_22
-Text Label 2840 5320 0    50   ~ 0
+Text Label 2240 5220 0    50   ~ 0
 SIO_20-SFLASH_MOSI
-Text Label 2840 5470 0    50   ~ 0
+Text Label 2240 5370 0    50   ~ 0
 SIO_18
-Text Label 2840 5620 0    50   ~ 0
+Text Label 2240 5520 0    50   ~ 0
 SIO_16-SFLASH_CLK
-Text Label 2840 5770 0    50   ~ 0
+Text Label 2240 5670 0    50   ~ 0
 SIO_14-SFLASH_MOSI
-Text Label 2840 5920 0    50   ~ 0
+Text Label 2240 5820 0    50   ~ 0
 SIO_12-SFLASH_CS
-Text GLabel 2440 4570 0    50   Input ~ 0
+Text GLabel 1840 4470 0    50   Input ~ 0
 SIO_23-SPI_MOSI
-Text Label 2840 6070 0    50   ~ 0
+Text Label 2240 5970 0    50   ~ 0
 SIO_11
-Text Label 2840 6220 0    50   ~ 0
+Text Label 2240 6120 0    50   ~ 0
 NFC2-SIO_10
-Text Label 2840 6370 0    50   ~ 0
+Text Label 2240 6270 0    50   ~ 0
 NFC2-SIO_09
 Wire Wire Line
-	2440 1420 2840 1420
+	1840 1320 2240 1320
 Wire Wire Line
-	2440 1870 2840 1870
+	1840 1770 2240 1770
 Wire Wire Line
-	2440 2020 2840 2020
+	1840 1920 2240 1920
 Wire Wire Line
-	2440 2470 2840 2470
+	1840 2370 2240 2370
 Wire Wire Line
-	2440 2620 2840 2620
+	1840 2520 2240 2520
 Wire Wire Line
-	2440 2770 2840 2770
+	1840 2670 2240 2670
 Wire Wire Line
-	2440 2920 2840 2920
+	1840 2820 2240 2820
 Wire Wire Line
-	2440 3070 2840 3070
+	1840 2970 2240 2970
 Wire Wire Line
-	2440 3220 2840 3220
+	1840 3120 2240 3120
 Wire Wire Line
-	2440 3370 2840 3370
+	1840 3270 2240 3270
 Wire Wire Line
-	2440 3520 2840 3520
+	1840 3420 2240 3420
 Wire Wire Line
-	2440 3670 2840 3670
+	1840 3570 2240 3570
 Wire Wire Line
-	2440 3820 2840 3820
+	1840 3720 2240 3720
 Wire Wire Line
-	2840 3970 2440 3970
+	2240 3870 1840 3870
 Wire Wire Line
-	2440 4120 2840 4120
+	1840 4020 2240 4020
 Wire Wire Line
-	2840 4270 2440 4270
+	2240 4170 1840 4170
 Wire Wire Line
-	2440 4420 2840 4420
+	1840 4320 2240 4320
 Wire Wire Line
-	2840 4570 2440 4570
+	2240 4470 1840 4470
 Wire Wire Line
-	2840 4720 2440 4720
+	2240 4620 1840 4620
 Wire Wire Line
-	2440 5320 2840 5320
+	1840 5220 2240 5220
 Wire Wire Line
-	2840 5470 2440 5470
+	2240 5370 1840 5370
 Wire Wire Line
-	2440 5620 2840 5620
+	1840 5520 2240 5520
 Wire Wire Line
-	2840 5770 2440 5770
+	2240 5670 1840 5670
 Wire Wire Line
-	2440 5920 2840 5920
+	1840 5820 2240 5820
 Wire Wire Line
-	2840 6070 2440 6070
+	2240 5970 1840 5970
 Wire Wire Line
-	2440 6220 2840 6220
+	1840 6120 2240 6120
 Wire Wire Line
-	2840 6370 2440 6370
+	2240 6270 1840 6270
 Wire Wire Line
-	2440 2320 2840 2320
+	1840 2220 2240 2220
 Wire Wire Line
-	2440 2170 2840 2170
+	1840 2070 2240 2070
 $Comp
 L Device:C C1
 U 1 1 5ADA9481
-P 5670 3060
-F 0 "C1" H 5785 3106 50  0000 L CNN
-F 1 "C" H 5785 3015 50  0000 L CNN
-F 2 "" H 5708 2910 50  0001 C CNN
-F 3 "~" H 5670 3060 50  0001 C CNN
-	1    5670 3060
+P 5770 3510
+F 0 "C1" H 5885 3556 50  0000 L CNN
+F 1 "0.1uF, 16V" H 5885 3465 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 5808 3360 50  0001 C CNN
+F 3 "~" H 5770 3510 50  0001 C CNN
+	1    5770 3510
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5ADA94ED
-P 5670 3360
-F 0 "#PWR0108" H 5670 3110 50  0001 C CNN
-F 1 "GND" H 5670 3210 50  0000 C CNN
-F 2 "" H 5670 3360 50  0001 C CNN
-F 3 "" H 5670 3360 50  0001 C CNN
-	1    5670 3360
+P 5770 3810
+F 0 "#PWR0108" H 5770 3560 50  0001 C CNN
+F 1 "GND" H 5770 3660 50  0000 C CNN
+F 2 "" H 5770 3810 50  0001 C CNN
+F 3 "" H 5770 3810 50  0001 C CNN
+	1    5770 3810
 	1    0    0    -1  
 $EndComp
-Text Label 7130 2725 2    50   ~ 0
+Text Label 7230 3175 2    50   ~ 0
 SIO_25-SPI_CLK
-Text Label 7130 3125 2    50   ~ 0
+Text Label 7230 3575 2    50   ~ 0
 SIO_29-AIN5
-Text Label 2835 4865 0    50   ~ 0
+Text Label 2235 4765 0    50   ~ 0
 SWDIO-TMS
-Text Label 2845 5020 0    50   ~ 0
+Text Label 2245 4920 0    50   ~ 0
 SWDCLK
-Text Label 2835 5175 0    50   ~ 0
+Text Label 2235 5075 0    50   ~ 0
 nRESET
 Wire Wire Line
-	2440 1570 2840 1570
+	1840 1470 2240 1470
 Wire Wire Line
-	2440 1720 2840 1720
+	1840 1620 2240 1620
 Wire Wire Line
-	2435 5175 2835 5175
+	1835 5075 2235 5075
 Wire Wire Line
-	2445 5020 2845 5020
+	1845 4920 2245 4920
 Wire Wire Line
-	2435 4865 2835 4865
-Text Label 7130 3225 2    50   ~ 0
+	1835 4765 2235 4765
+Text Label 7230 3675 2    50   ~ 0
 SIO_30-AIN6
-Text Label 7130 3325 2    50   ~ 0
+Text Label 7230 3775 2    50   ~ 0
 SIO_31-AIN7
-Text Label 7130 3425 2    50   ~ 0
+Text Label 7230 3875 2    50   ~ 0
 SIO_19
-Text Label 7130 3525 2    50   ~ 0
+Text Label 7230 3975 2    50   ~ 0
 SIO_17
-Text Label 7130 3625 2    50   ~ 0
+Text Label 7230 4075 2    50   ~ 0
 SIO_15
-Text Label 7155 3725 2    50   ~ 0
+Text Label 7255 4175 2    50   ~ 0
 SIO_13-NAutoRUN
-Text Label 7130 2825 2    50   ~ 0
+Text Label 7230 3275 2    50   ~ 0
 SIO_26-I2C_SDA
-Text Label 7130 2925 2    50   ~ 0
+Text Label 7230 3375 2    50   ~ 0
 SIO_26-I2C_SCL
-Text Label 9605 2375 0    50   ~ 0
+Text Label 9705 2825 0    50   ~ 0
 SIO_24-SPI_MISO
-Text Label 9605 2475 0    50   ~ 0
+Text Label 9705 2925 0    50   ~ 0
 SIO_23-SPI_MOSI
-Text Label 9605 2575 0    50   ~ 0
+Text Label 9705 3025 0    50   ~ 0
 SIO_22
-Text Label 9605 2975 0    50   ~ 0
+Text Label 9705 3425 0    50   ~ 0
 SIO_20-SFLASH_MOSI
-Text Label 9605 3075 0    50   ~ 0
+Text Label 9705 3525 0    50   ~ 0
 SIO_18
-Text Label 9605 3175 0    50   ~ 0
+Text Label 9705 3625 0    50   ~ 0
 SIO_16-SFLASH_CLK
-Text Label 9605 3375 0    50   ~ 0
+Text Label 9705 3825 0    50   ~ 0
 SIO_12-SFLASH_CS
-Text Label 9605 3475 0    50   ~ 0
+Text Label 9705 3925 0    50   ~ 0
 SIO_11
-Text Label 9605 3575 0    50   ~ 0
+Text Label 9705 4025 0    50   ~ 0
 NFC2-SIO_10
-Text Label 9605 3675 0    50   ~ 0
+Text Label 9705 4125 0    50   ~ 0
 NFC2-SIO_09
 $Comp
 L mybl652:BL652 U1
 U 1 1 5AD81B55
-P 6605 4825
-F 0 "U1" H 8355 7875 60  0000 C CNN
-F 1 "BL652" H 8355 7725 60  0000 C CNN
-F 2 "RF_Module:Laird_BL652" H 7855 5575 60  0001 C CNN
-F 3 "" H 7855 5575 60  0001 C CNN
-	1    6605 4825
+P 6705 5275
+F 0 "U1" H 8455 8325 60  0000 C CNN
+F 1 "BL652" H 8455 8175 60  0000 C CNN
+F 2 "RF_Module:Laird_BL652" H 7955 6025 60  0001 C CNN
+F 3 "" H 7955 6025 60  0001 C CNN
+	1    6705 5275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8205 4325 8205 4475
+	8305 4775 8305 4925
 Wire Wire Line
-	7305 3725 7155 3725
+	7405 4175 7255 4175
 Wire Wire Line
-	9455 3575 9605 3575
+	9555 4025 9705 4025
 Wire Wire Line
-	9455 3475 9605 3475
+	9555 3925 9705 3925
 Wire Wire Line
-	9605 3375 9455 3375
+	9705 3825 9555 3825
 Wire Wire Line
-	9455 3075 9605 3075
+	9555 3525 9705 3525
 Wire Wire Line
-	9605 2975 9455 2975
+	9705 3425 9555 3425
 Wire Wire Line
-	9455 2675 9605 2675
+	9555 3125 9705 3125
 Wire Wire Line
-	9605 2575 9455 2575
+	9705 3025 9555 3025
 Wire Wire Line
-	9455 2475 9605 2475
+	9555 2925 9705 2925
 Wire Wire Line
-	9605 2375 9455 2375
+	9705 2825 9555 2825
 Wire Wire Line
-	9630 2275 9455 2275
+	9730 2725 9555 2725
 Wire Wire Line
-	9455 3175 9605 3175
-Text Label 9605 3275 0    50   ~ 0
+	9555 3625 9705 3625
+Text Label 9705 3725 0    50   ~ 0
 SIO_16-SFLASH_MOSI
 Wire Wire Line
-	9455 3275 9605 3275
-Text Label 9605 2675 0    50   ~ 0
+	9555 3725 9705 3725
+Text Label 9705 3125 0    50   ~ 0
 SWDIO-TMS
-Text Label 9605 2775 0    50   ~ 0
+Text Label 9705 3225 0    50   ~ 0
 SWDCLK
-Text Label 9605 2875 0    50   ~ 0
+Text Label 9705 3325 0    50   ~ 0
 nRESET
 Wire Wire Line
-	9455 2875 9605 2875
+	9555 3325 9705 3325
 Wire Wire Line
-	9605 2775 9455 2775
+	9705 3225 9555 3225
 Wire Wire Line
-	9455 3675 9605 3675
+	9555 4125 9705 4125
 Wire Wire Line
-	7305 3625 7130 3625
+	7405 4075 7230 4075
 Wire Wire Line
-	7130 3525 7305 3525
+	7230 3975 7405 3975
 Wire Wire Line
-	7305 3425 7130 3425
+	7405 3875 7230 3875
 Wire Wire Line
-	7130 3325 7305 3325
+	7230 3775 7405 3775
 Wire Wire Line
-	7305 3225 7130 3225
+	7405 3675 7230 3675
 Wire Wire Line
-	7130 3125 7305 3125
+	7230 3575 7405 3575
 Wire Wire Line
-	7305 3025 7130 3025
+	7405 3475 7230 3475
 Wire Wire Line
-	7305 2925 7130 2925
+	7405 3375 7230 3375
 Wire Wire Line
-	7130 2825 7305 2825
+	7230 3275 7405 3275
 Wire Wire Line
-	7305 2725 7130 2725
+	7405 3175 7230 3175
 Wire Wire Line
-	7305 2625 7105 2625
-Text Label 8005 4475 3    50   ~ 0
+	7405 3075 7205 3075
+Text Label 8105 4925 3    50   ~ 0
 VDD
-Text Label 8105 4475 3    50   ~ 0
+Text Label 8205 4925 3    50   ~ 0
 SIO_00
-Text Label 8205 4475 3    50   ~ 0
+Text Label 8305 4925 3    50   ~ 0
 SIO_01
-Text Label 8305 4475 3    50   ~ 0
+Text Label 8405 4925 3    50   ~ 0
 SIO_02
-Text Label 8405 4475 3    50   ~ 0
+Text Label 8505 4925 3    50   ~ 0
 SIO_03
-Text Label 8505 4475 3    50   ~ 0
+Text Label 8605 4925 3    50   ~ 0
 SIO_04
-Text Label 8605 4475 3    50   ~ 0
+Text Label 8705 4925 3    50   ~ 0
 SIO_05
-Text Label 8705 4475 3    50   ~ 0
+Text Label 8805 4925 3    50   ~ 0
 SIO_06
-Text Label 8805 4475 3    50   ~ 0
+Text Label 8905 4925 3    50   ~ 0
 SIO_07
-Text Label 8905 4475 3    50   ~ 0
+Text Label 9005 4925 3    50   ~ 0
 SIO_08
 Wire Wire Line
-	7905 4325 7905 4475
+	8005 4775 8005 4925
 Wire Wire Line
-	8005 4475 8005 4325
+	8105 4925 8105 4775
 Wire Wire Line
-	8105 4475 8105 4325
+	8205 4925 8205 4775
 Wire Wire Line
-	8305 4475 8305 4325
+	8405 4925 8405 4775
 Wire Wire Line
-	8405 4325 8405 4475
+	8505 4775 8505 4925
 Wire Wire Line
-	8505 4475 8505 4325
+	8605 4925 8605 4775
 Wire Wire Line
-	8605 4325 8605 4475
+	8705 4775 8705 4925
 Wire Wire Line
-	8705 4475 8705 4325
+	8805 4925 8805 4775
 Wire Wire Line
-	8805 4325 8805 4475
+	8905 4775 8905 4925
 Wire Wire Line
-	8905 4475 8905 4325
+	9005 4925 9005 4775
 Wire Wire Line
-	9455 3775 9630 3775
-Text Label 5795 2760 0    50   ~ 0
+	9555 4225 9730 4225
+Text Label 5895 3210 0    50   ~ 0
 VDD
 Wire Wire Line
-	5670 3210 5670 3360
+	5770 3660 5770 3810
 Wire Wire Line
-	5670 2910 5670 2760
+	5770 3360 5770 3210
 Wire Wire Line
-	5795 2760 5670 2760
-Connection ~ 5670 2760
+	5895 3210 5770 3210
+Connection ~ 5770 3210
 Wire Wire Line
-	5670 2760 5670 2685
-Text Label 2840 1570 0    50   ~ 0
+	5770 3210 5770 3135
+Text Label 2240 1470 0    50   ~ 0
 SIO_26-I2C_SDA
-Text Label 2840 1720 0    50   ~ 0
+Text Label 2240 1620 0    50   ~ 0
 SIO_26-I2C_SCL
-Text GLabel 2440 1270 0    50   Input ~ 0
-VDD
-Text Label 2840 1270 0    50   ~ 0
-VDD
-Text Label 2840 1120 0    50   ~ 0
-GND
+Text GLabel 4850 1500 2    50   Input ~ 0
+RESET
+Text GLabel 4850 1650 2    50   Input ~ 0
+SWD_CLK
+Text GLabel 4850 1800 2    50   Input ~ 0
+SWD_DIO
+Text GLabel 4850 1950 2    50   Input ~ 0
+SWD_SWO
 Wire Wire Line
-	2840 1270 2440 1270
-Text GLabel 2435 1120 0    50   Input ~ 0
-GND
+	4650 1500 4850 1500
 Wire Wire Line
-	2435 1120 2840 1120
+	4650 1650 4850 1650
+Wire Wire Line
+	4650 1800 4850 1800
+Wire Wire Line
+	4650 1950 4850 1950
+Text GLabel 4650 1650 0    50   Input ~ 0
+SWDCLK
+Text GLabel 4650 1500 0    50   Input ~ 0
+nRESET
+Text GLabel 4650 1800 0    50   Input ~ 0
+SWDIO-TMS
+Text GLabel 4650 1950 0    50   Input ~ 0
+SIO_18
+Text GLabel 4850 2600 2    50   Input ~ 0
+LED_0
+Text GLabel 4850 2450 2    50   Input ~ 0
+BUTTON_0
+Text GLabel 4850 2300 2    50   Input ~ 0
+SCL
+Text GLabel 4850 2150 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	4850 2450 4650 2450
+Wire Wire Line
+	4850 2600 4650 2600
+Wire Wire Line
+	4850 2300 4650 2300
+Wire Wire Line
+	4850 2150 4650 2150
+Text GLabel 4650 2150 0    50   Input ~ 0
+SIO_26-I2C_SDA
+Text GLabel 4650 2300 0    50   Input ~ 0
+SIO_26-I2C_SCL
+Text GLabel 4650 2450 0    50   Input ~ 0
+SIO_01
+Text GLabel 4650 2600 0    50   Input ~ 0
+SIO_02
+Text Notes 4450 1200 0    50   ~ 0
+GPIO Pin Mapping
 $EndSCHEMATC
