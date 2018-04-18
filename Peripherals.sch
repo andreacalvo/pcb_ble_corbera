@@ -1,0 +1,338 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1550 2600 1550 2550
+$Comp
+L power:GND #PWR0113
+U 1 1 5ADE1B39
+P 1550 2600
+F 0 "#PWR0113" H 1550 2350 50  0001 C CNN
+F 1 "GND" H 1555 2427 50  0000 C CNN
+F 2 "" H 1550 2600 50  0001 C CNN
+F 3 "" H 1550 2600 50  0001 C CNN
+	1    1550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2250 2100 2700
+Wire Wire Line
+	1550 2250 2100 2250
+Connection ~ 2100 2250
+Wire Wire Line
+	2100 2200 2100 2250
+$Comp
+L Device:C C2
+U 1 1 5ADE1B43
+P 1550 2400
+F 0 "C2" H 1665 2446 50  0000 L CNN
+F 1 "C" H 1665 2355 50  0000 L CNN
+F 2 "" H 1588 2250 50  0001 C CNN
+F 3 "~" H 1550 2400 50  0001 C CNN
+	1    1550 2400
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 900  0    50   ~ 0
+Temperature Humidity Sensor\n
+Wire Notes Line
+	900  750  900  4150
+Wire Notes Line
+	4300 750  900  750 
+Wire Notes Line
+	4300 4150 4300 750 
+Wire Notes Line
+	900  4150 4300 4150
+Wire Wire Line
+	3250 3000 3500 3000
+Wire Wire Line
+	2900 2650 2900 2900
+Wire Wire Line
+	3500 2900 2900 2900
+Wire Wire Line
+	2950 1400 2800 1400
+Wire Wire Line
+	2950 1500 2800 1500
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5ADE1B58
+P 2600 1500
+F 0 "J5" H 2680 1492 50  0000 L CNN
+F 1 "Conn_01x02" H 2680 1401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2600 1500 50  0001 C CNN
+F 3 "~" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 3300 2100 3600
+Wire Wire Line
+	3250 3000 3250 2650
+Wire Wire Line
+	2500 3000 3250 3000
+Wire Wire Line
+	3250 2200 3250 2350
+Wire Wire Line
+	2900 2350 2900 2200
+$Comp
+L power:GND #PWR0114
+U 1 1 5ADE1B66
+P 2100 3600
+F 0 "#PWR0114" H 2100 3350 50  0001 C CNN
+F 1 "GND" H 2105 3427 50  0000 C CNN
+F 2 "" H 2100 3600 50  0001 C CNN
+F 3 "" H 2100 3600 50  0001 C CNN
+	1    2100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 5ADE1B6C
+P 2100 2200
+F 0 "#PWR0115" H 2100 2050 50  0001 C CNN
+F 1 "VCC" H 2117 2373 50  0000 C CNN
+F 2 "" H 2100 2200 50  0001 C CNN
+F 3 "" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0116
+U 1 1 5ADE1B72
+P 3250 2200
+F 0 "#PWR0116" H 3250 2050 50  0001 C CNN
+F 1 "VCC" H 3267 2373 50  0000 C CNN
+F 2 "" H 3250 2200 50  0001 C CNN
+F 3 "" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0117
+U 1 1 5ADE1B78
+P 2900 2200
+F 0 "#PWR0117" H 2900 2050 50  0001 C CNN
+F 1 "VCC" H 2917 2373 50  0000 C CNN
+F 2 "" H 2900 2200 50  0001 C CNN
+F 3 "" H 2900 2200 50  0001 C CNN
+	1    2900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5ADE1B7E
+P 3250 2500
+F 0 "R2" H 3320 2546 50  0000 L CNN
+F 1 "5.7k" H 3320 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3180 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5ADE1B85
+P 2900 2500
+F 0 "R1" H 2970 2546 50  0000 L CNN
+F 1 "5.7k" H 2970 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 2830 2500 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Humidity:HDC1080 U2
+U 1 1 5ADE1B8C
+P 2200 3000
+F 0 "U2" H 1860 3046 50  0000 R CNN
+F 1 "HDC1080" H 1860 2955 50  0000 R CNN
+F 2 "Package_SON:Texas_PWSON-N6" H 2150 2750 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" H 1800 3250 50  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 3000
+$Comp
+L Switch:SW_DPST SW1
+U 1 1 5ADE21A0
+P 5600 3300
+F 0 "SW1" H 5600 3625 50  0000 C CNN
+F 1 "SW_DPST" H 5600 3534 50  0000 C CNN
+F 2 "" H 5600 3300 50  0001 C CNN
+F 3 "" H 5600 3300 50  0001 C CNN
+	1    5600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5ADE21A7
+P 6100 1600
+F 0 "JP1" H 6100 1700 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6100 1400 50  0000 C CNN
+F 2 "" H 6100 1600 50  0001 C CNN
+F 3 "~" H 6100 1600 50  0001 C CNN
+	1    6100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5ADE21AE
+P 6050 3700
+F 0 "#PWR0118" H 6050 3450 50  0001 C CNN
+F 1 "GND" H 6050 3550 50  0000 C CNN
+F 2 "" H 6050 3700 50  0001 C CNN
+F 3 "" H 6050 3700 50  0001 C CNN
+	1    6050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5ADE21B4
+P 6050 3550
+F 0 "C3" H 6165 3596 50  0000 L CNN
+F 1 "C" H 6165 3505 50  0000 L CNN
+F 2 "" H 6088 3400 50  0001 C CNN
+F 3 "~" H 6050 3550 50  0001 C CNN
+	1    6050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5ADE21BB
+P 5650 1600
+F 0 "D1" H 5641 1816 50  0000 C CNN
+F 1 "LED" H 5641 1725 50  0000 C CNN
+F 2 "" H 5650 1600 50  0001 C CNN
+F 3 "~" H 5650 1600 50  0001 C CNN
+	1    5650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5ADE21C2
+P 5150 1600
+F 0 "R3" V 4943 1600 50  0000 C CNN
+F 1 "R" V 5034 1600 50  0000 C CNN
+F 2 "" V 5080 1600 50  0001 C CNN
+F 3 "~" H 5150 1600 50  0001 C CNN
+	1    5150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5ADE21C9
+P 4950 1700
+F 0 "#PWR0119" H 4950 1450 50  0001 C CNN
+F 1 "GND" H 4955 1527 50  0000 C CNN
+F 2 "" H 4950 1700 50  0001 C CNN
+F 3 "" H 4950 1700 50  0001 C CNN
+	1    4950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1600 5500 1600
+Wire Wire Line
+	4950 1700 4950 1600
+Wire Wire Line
+	4950 1600 5000 1600
+Wire Wire Line
+	5950 1600 5800 1600
+Wire Wire Line
+	6550 1600 6250 1600
+Wire Notes Line
+	6950 2350 4650 2350
+NoConn ~ 5900 3200
+NoConn ~ 5300 3200
+Wire Wire Line
+	5300 3200 5400 3200
+Wire Wire Line
+	5900 3200 5800 3200
+Connection ~ 6050 3400
+Wire Wire Line
+	5800 3400 6050 3400
+Wire Wire Line
+	6050 3400 6400 3400
+$Comp
+L power:GND #PWR0120
+U 1 1 5ADE6473
+P 5050 3700
+F 0 "#PWR0120" H 5050 3450 50  0001 C CNN
+F 1 "GND" H 5055 3527 50  0000 C CNN
+F 2 "" H 5050 3700 50  0001 C CNN
+F 3 "" H 5050 3700 50  0001 C CNN
+	1    5050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3400 5400 3400
+Text Label 6550 1600 0    50   ~ 10
+LED_0
+Text Label 6400 3400 0    50   ~ 10
+BUTTON_0
+Wire Notes Line
+	4650 4150 6950 4150
+Wire Notes Line
+	4650 2450 4650 4150
+Wire Notes Line
+	4650 2450 6950 2450
+Wire Notes Line
+	6950 2450 6950 4150
+Wire Notes Line
+	4650 750  6950 750 
+Wire Notes Line
+	6950 750  6950 2350
+Wire Notes Line
+	4650 750  4650 2350
+Text Notes 5450 900  0    50   ~ 0
+Status/Debug LED
+Text Notes 5350 2600 0    50   ~ 0
+Config/Wake Up Button
+Wire Wire Line
+	5050 3700 5050 3400
+Text GLabel 8050 1300 0    50   Input ~ 0
+LED_0
+Text GLabel 8050 1450 0    50   Input ~ 0
+BUTTON_0
+Text GLabel 8050 1600 0    50   Input ~ 0
+SCL
+Text GLabel 8050 1750 0    50   Input ~ 0
+SDA
+Text Label 2950 1400 0    50   ~ 10
+SCl
+Text Label 2950 1500 0    50   ~ 10
+SDA
+Text Label 3500 2900 0    50   ~ 10
+SCL
+Text Label 3500 3000 0    50   ~ 10
+SDA
+Text Label 8250 1600 0    50   ~ 10
+SCL
+Text Label 8250 1750 0    50   ~ 10
+SDA
+Text Label 8250 1450 0    50   ~ 10
+BUTTON_0
+Text Label 8250 1300 0    50   ~ 10
+LED_0
+Wire Wire Line
+	8050 1450 8250 1450
+Wire Wire Line
+	8050 1300 8250 1300
+Wire Wire Line
+	8050 1600 8250 1600
+Wire Wire Line
+	8050 1750 8250 1750
+Connection ~ 2900 2900
+Wire Wire Line
+	2500 2900 2900 2900
+$EndSCHEMATC
