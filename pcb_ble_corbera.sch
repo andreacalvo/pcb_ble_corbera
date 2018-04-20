@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -63,11 +63,5 @@ S 1400 2800 1200 1200
 U 5ADAE2FE
 F0 "Interface Connectors" 50
 F1 "Interface_Connectors.sch" 50
-$EndSheet
-$Sheet
-S 3650 1100 1150 1300
-U 5ADDDDE1
-F0 "Peripherals" 50
-F1 "Peripherals.sch" 50
 $EndSheet
 $EndSCHEMATC

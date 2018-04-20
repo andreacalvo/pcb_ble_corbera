@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -27,7 +27,7 @@ F 3 "" H 7205 3075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1840 1620 0    50   Input ~ 0
-SIO_26-I2C_SCL
+SIO_27-I2C_SCL
 $Comp
 L power:GND #PWR0102
 U 1 1 5AD81B6E
@@ -311,7 +311,7 @@ SIO_13-NAutoRUN
 Text Label 7230 3275 2    50   ~ 0
 SIO_26-I2C_SDA
 Text Label 7230 3375 2    50   ~ 0
-SIO_26-I2C_SCL
+SIO_27-I2C_SCL
 Text Label 9705 2825 0    50   ~ 0
 SIO_24-SPI_MISO
 Text Label 9705 2925 0    50   ~ 0
@@ -370,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	9555 3625 9705 3625
 Text Label 9705 3725 0    50   ~ 0
-SIO_16-SFLASH_MOSI
+SIO_14-SFLASH_MOSI
 Wire Wire Line
 	9555 3725 9705 3725
 Text Label 9705 3125 0    50   ~ 0
@@ -464,53 +464,53 @@ Text Label 2240 1470 0    50   ~ 0
 SIO_26-I2C_SDA
 Text Label 2240 1620 0    50   ~ 0
 SIO_26-I2C_SCL
-Text GLabel 4850 1500 2    50   Input ~ 0
+Text GLabel 4340 2850 0    50   Input ~ 0
 RESET
-Text GLabel 4850 1650 2    50   Input ~ 0
+Text GLabel 4340 2700 0    50   Input ~ 0
 SWD_CLK
-Text GLabel 4850 1800 2    50   Input ~ 0
+Text GLabel 4340 2550 0    50   Input ~ 0
 SWD_DIO
-Text GLabel 4850 1950 2    50   Input ~ 0
+Text GLabel 4340 2400 0    50   Input ~ 0
 SWD_SWO
 Wire Wire Line
-	4650 1500 4850 1500
+	4540 2850 4340 2850
 Wire Wire Line
-	4650 1650 4850 1650
+	4540 2700 4340 2700
 Wire Wire Line
-	4650 1800 4850 1800
+	4540 2550 4340 2550
 Wire Wire Line
-	4650 1950 4850 1950
-Text GLabel 4650 1650 0    50   Input ~ 0
+	4540 2400 4340 2400
+Text GLabel 4540 2700 2    50   Input ~ 0
 SWDCLK
-Text GLabel 4650 1500 0    50   Input ~ 0
+Text GLabel 4540 2850 2    50   Input ~ 0
 nRESET
-Text GLabel 4650 1800 0    50   Input ~ 0
+Text GLabel 4540 2550 2    50   Input ~ 0
 SWDIO-TMS
-Text GLabel 4650 1950 0    50   Input ~ 0
+Text GLabel 4540 2400 2    50   Input ~ 0
 SIO_18
-Text GLabel 4850 2600 2    50   Input ~ 0
+Text GLabel 4340 1750 0    50   Input ~ 0
 LED_0
-Text GLabel 4850 2450 2    50   Input ~ 0
+Text GLabel 4340 1900 0    50   UnSpc ~ 0
 BUTTON_0
-Text GLabel 4850 2300 2    50   Input ~ 0
+Text GLabel 4340 2050 0    50   Input ~ 0
 SCL
-Text GLabel 4850 2150 2    50   Input ~ 0
+Text GLabel 4340 2200 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	4850 2450 4650 2450
+	4340 1900 4540 1900
 Wire Wire Line
-	4850 2600 4650 2600
+	4340 1750 4540 1750
 Wire Wire Line
-	4850 2300 4650 2300
+	4340 2050 4540 2050
 Wire Wire Line
-	4850 2150 4650 2150
-Text GLabel 4650 2150 0    50   Input ~ 0
+	4340 2200 4540 2200
+Text GLabel 4540 2200 2    50   Input ~ 0
 SIO_26-I2C_SDA
-Text GLabel 4650 2300 0    50   Input ~ 0
-SIO_26-I2C_SCL
-Text GLabel 4650 2450 0    50   Input ~ 0
-SIO_01
-Text GLabel 4650 2600 0    50   Input ~ 0
+Text GLabel 4540 2050 2    50   Input ~ 0
+SIO_27-I2C_SCL
+Text GLabel 4540 1900 2    50   UnSpc ~ 0
+SIO_03
+Text GLabel 4540 1750 2    50   Input ~ 0
 SIO_02
 Text Notes 4450 1200 0    50   ~ 0
 GPIO Pin Mapping
