@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:pcb_ble_corbera-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -514,4 +515,16 @@ Text GLabel 4540 1750 2    50   Input ~ 0
 SIO_02
 Text Notes 4450 1200 0    50   ~ 0
 GPIO Pin Mapping
+Text GLabel 4350 3100 0    50   Input ~ 0
+SERIAL_TX
+Text GLabel 4350 3225 0    50   Input ~ 0
+SERIAL_RX
+Text GLabel 4550 3100 2    50   Input ~ 0
+SIO_08
+Wire Wire Line
+	4350 3100 4550 3100
+Text GLabel 4550 3225 2    50   Input ~ 0
+SIO_06
+Wire Wire Line
+	4350 3225 4550 3225
 $EndSCHEMATC
