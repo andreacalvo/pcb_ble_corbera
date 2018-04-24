@@ -1,0 +1,2 @@
+56	SW1,SW2	"Micro miniature pushbutton
+Surface Switch"	434 121 025 816	Würth	Würth	SW_SMD_60X3.8	2	KSR231GLFS	Cannon, ITT ind.	

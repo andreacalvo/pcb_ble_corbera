@@ -465,66 +465,66 @@ Text Label 2240 1470 0    50   ~ 0
 SIO_26-I2C_SDA
 Text Label 2240 1620 0    50   ~ 0
 SIO_26-I2C_SCL
-Text GLabel 4340 2850 0    50   Input ~ 0
+Text GLabel 4590 2750 0    50   Input ~ 0
 RESET
-Text GLabel 4340 2700 0    50   Input ~ 0
+Text GLabel 4590 2600 0    50   Input ~ 0
 SWD_CLK
-Text GLabel 4340 2550 0    50   Input ~ 0
+Text GLabel 4590 2450 0    50   Input ~ 0
 SWD_DIO
-Text GLabel 4340 2400 0    50   Input ~ 0
+Text GLabel 4590 2300 0    50   Input ~ 0
 SWD_SWO
 Wire Wire Line
-	4540 2850 4340 2850
+	4790 2750 4590 2750
 Wire Wire Line
-	4540 2700 4340 2700
+	4790 2600 4590 2600
 Wire Wire Line
-	4540 2550 4340 2550
+	4790 2450 4590 2450
 Wire Wire Line
-	4540 2400 4340 2400
-Text GLabel 4540 2700 2    50   Input ~ 0
+	4790 2300 4590 2300
+Text GLabel 4790 2600 2    50   Input ~ 0
 SWDCLK
-Text GLabel 4540 2850 2    50   Input ~ 0
+Text GLabel 4790 2750 2    50   Input ~ 0
 nRESET
-Text GLabel 4540 2550 2    50   Input ~ 0
+Text GLabel 4790 2450 2    50   Input ~ 0
 SWDIO-TMS
-Text GLabel 4540 2400 2    50   Input ~ 0
+Text GLabel 4790 2300 2    50   Input ~ 0
 SIO_18
-Text GLabel 4340 1750 0    50   Input ~ 0
+Text GLabel 4590 1650 0    50   Input ~ 0
 LED_0
-Text GLabel 4340 1900 0    50   UnSpc ~ 0
+Text GLabel 4590 1800 0    50   UnSpc ~ 0
 BUTTON_0
-Text GLabel 4340 2050 0    50   Input ~ 0
+Text GLabel 4590 1950 0    50   Input ~ 0
 SCL
-Text GLabel 4340 2200 0    50   Input ~ 0
+Text GLabel 4590 2100 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	4340 1900 4540 1900
+	4590 1800 4790 1800
 Wire Wire Line
-	4340 1750 4540 1750
+	4590 1650 4790 1650
 Wire Wire Line
-	4340 2050 4540 2050
+	4590 1950 4790 1950
 Wire Wire Line
-	4340 2200 4540 2200
-Text GLabel 4540 2200 2    50   Input ~ 0
+	4590 2100 4790 2100
+Text GLabel 4790 2100 2    50   Input ~ 0
 SIO_26-I2C_SDA
-Text GLabel 4540 2050 2    50   Input ~ 0
+Text GLabel 4790 1950 2    50   Input ~ 0
 SIO_27-I2C_SCL
-Text GLabel 4540 1900 2    50   UnSpc ~ 0
+Text GLabel 4790 1800 2    50   UnSpc ~ 0
 SIO_03
-Text GLabel 4540 1750 2    50   Input ~ 0
+Text GLabel 4790 1650 2    50   Input ~ 0
 SIO_02
 Text Notes 4450 1200 0    50   ~ 0
 GPIO Pin Mapping
-Text GLabel 4350 3100 0    50   Input ~ 0
+Text GLabel 4600 3000 0    50   Input ~ 0
 SERIAL_TX
-Text GLabel 4350 3225 0    50   Input ~ 0
+Text GLabel 4600 3125 0    50   Input ~ 0
 SERIAL_RX
-Text GLabel 4550 3100 2    50   Input ~ 0
+Text GLabel 4800 3000 2    50   Input ~ 0
 SIO_08
 Wire Wire Line
-	4350 3100 4550 3100
-Text GLabel 4550 3225 2    50   Input ~ 0
+	4600 3000 4800 3000
+Text GLabel 4800 3125 2    50   Input ~ 0
 SIO_06
 Wire Wire Line
-	4350 3225 4550 3225
+	4600 3125 4800 3125
 $EndSCHEMATC
