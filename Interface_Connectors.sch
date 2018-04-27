@@ -278,17 +278,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" H 1770 3080 50  0001 C CNN
 $EndComp
 Connection ~ 3220 2830
 $Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5ADE26E0
-P 6075 1755
-F 0 "JP1" H 6075 1855 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6075 1555 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6075 1755 50  0001 C CNN
-F 3 "~" H 6075 1755 50  0001 C CNN
-	1    6075 1755
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0118
 U 1 1 5ADE26E7
 P 6025 3855
@@ -316,7 +305,7 @@ U 1 1 5ADE26F4
 P 5625 1755
 F 0 "D1" H 5616 1971 50  0000 C CNN
 F 1 "LED" H 5616 1880 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 5625 1755 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.12x1.40mm_HandSolder" H 5625 1755 50  0001 C CNN
 F 3 "~" H 5625 1755 50  0001 C CNN
 	1    5625 1755
 	1    0    0    -1  
@@ -349,10 +338,6 @@ Wire Wire Line
 	4925 1855 4925 1755
 Wire Wire Line
 	4925 1755 4975 1755
-Wire Wire Line
-	5925 1755 5775 1755
-Wire Wire Line
-	6525 1755 6225 1755
 Wire Notes Line
 	6925 2505 4625 2505
 Connection ~ 6025 3555
@@ -515,4 +500,19 @@ F 3 "~" H 5625 5835 50  0001 C CNN
 	1    5625 5835
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5AE38667
+P 6115 1755
+F 0 "JP1" H 6115 1960 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6115 1869 50  0000 C CNN
+F 2 "TestPoint:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6115 1755 50  0001 C CNN
+F 3 "~" H 6115 1755 50  0001 C CNN
+	1    6115 1755
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 1755 5965 1755
+Wire Wire Line
+	6265 1755 6525 1755
 $EndSCHEMATC
