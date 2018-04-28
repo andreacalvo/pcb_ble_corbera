@@ -20,7 +20,7 @@ U 1 1 5A9F3809
 P 8400 2700
 F 0 "J1" H 8320 2375 50  0000 C CNN
 F 1 "Conn_01x02" H 8320 2466 50  0000 C CNN
-F 2 "Battery_Holders:Keystone_3034_1x20mm-CoinCell" H 8400 2700 50  0001 C CNN
+F 2 "Battery_Holders:Keystone_1058_1x2032-CoinCell" H 8400 2700 50  0001 C CNN
 F 3 "~" H 8400 2700 50  0001 C CNN
 	1    8400 2700
 	-1   0    0    1   
