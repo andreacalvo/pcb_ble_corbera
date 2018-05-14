@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name _Project)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints.pretty")(options "")(descr ""))
-  (lib (name Legacy)(type Legacy)(uri "$(KIPRJMOD)/libs/legacy/BU2032SM-HD-G.mod")(options "")(descr ""))
+  (lib (name Legacy)(type Legacy)(uri "$(KIPRJMOD)/libs/legacy/SHT20.mod")(options "")(descr ""))
 )

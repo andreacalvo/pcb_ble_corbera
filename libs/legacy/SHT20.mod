@@ -1,0 +1,87 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+DFN300X300X110-7N
+$EndINDEX
+$MODULE DFN300X300X110-7N
+Po 0 0 0 15 00000000 00000000 ~~
+Li DFN300X300X110-7N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.782857 -2.31087 0.481264 0.481264 0 0.05 N V 21 "DFN300X300X110-7N"
+T1 -0.476947 2.19956 0.480953 0.480953 0 0.05 N V 21 "VAL**"
+DS -1.5 1.5 1.5 1.5 0.127 21
+DS 1.5 1.5 1.5 -1.5 0.127 24
+DS 1.5 -1.5 -1.5 -1.5 0.127 21
+DS -1.5 -1.5 -1.5 1.5 0.127 24
+DP 0 0 0 0 4 0.381 19
+Dl -0.701104 -1.15
+Dl 0.7 -1.15
+Dl 0.7 1.15182
+Dl -0.701104 1.15182
+DC -1.75 -1.5 -1.623 -1.5 0 21
+DS -2 -1.75 2 -1.75 0.127 24
+DS 2 -1.75 2 1.75 0.127 24
+DS 2 1.75 -2 1.75 0.127 24
+DS -2 1.75 -2 -1.75 0.127 24
+$PAD
+Sh "7" R 1.5 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.4 -1
+$EndPAD
+$PAD
+Sh "5" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.4 0
+$EndPAD
+$PAD
+Sh "4" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.4 1
+$EndPAD
+$PAD
+Sh "1" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.4 -1
+$EndPAD
+$PAD
+Sh "2" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.4 0
+$EndPAD
+$PAD
+Sh "3" R 0.6 0.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.4 1
+$EndPAD
+$EndMODULE DFN300X300X110-7N
